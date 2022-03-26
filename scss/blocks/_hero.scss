@@ -1,0 +1,28 @@
+
+.carusel{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.img-container{
+    display: flex;
+    transition: all ease-in-out 0.5s;
+    transform: translateX(0);
+}
+.carusel__btns{
+    display: flex;
+    justify-content: space-between;
+    button{
+        border: none;
+        background-color: rgb(219, 74, 74);
+        cursor: pointer;
+        padding: 10px 20px;
+        width: 49%;
+        &:hover{
+            background-color: rgb(180, 106, 106);
+        }
+    }
+}
+
